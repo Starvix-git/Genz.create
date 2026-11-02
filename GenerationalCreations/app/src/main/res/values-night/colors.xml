@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Dark Mode Color Palette -->
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FF17140F</color>
+
+    <!-- E-memo Dark Theme Palette -->
+    <color name="bg_page">#17140F</color>
+    <color name="bg_card">#221E16</color>
+    <color name="bg_tile">#3A3020</color>
+    <color name="bg_banner">#0E0C09</color>
+    <color name="color_line">#4A3F2A</color>
+    <color name="text_ink">#F4EFE3</color>
+    <color name="text_muted">#A99F8B</color>
+    <color name="color_gold">#D4B05A</color>
+    <color name="color_gold_deep">#D4B05A</color>
+    <color name="color_banner_text">#F4EFE3</color>
+    <color name="color_banner_sub">#A99F8B</color>
+</resources>

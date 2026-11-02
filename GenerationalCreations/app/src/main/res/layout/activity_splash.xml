@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Splash Loading Screen Layout -->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_page"
+    tools:context=".SplashActivity">
+
+    <!-- Background Wallpaper Image -->
+    <ImageView
+        android:id="@+id/imgSplashBackground"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="Splash Background Wallpaper"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_app_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Generational Creations Brand Tree Logo in Round Container -->
+    <ImageView
+        android:id="@+id/imgSplashLogo"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:background="@drawable/bg_logo_container"
+        android:contentDescription="Generational Creations Tree Logo"
+        android:padding="24dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_generational_creations_logo"
+        app:layout_constraintBottom_toTopOf="@+id/progressBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <!-- Loading Indicator -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:indeterminate="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgSplashLogo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

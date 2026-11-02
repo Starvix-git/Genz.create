@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Light Mode Color Palette -->
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- E-memo Light Theme Palette -->
+    <color name="bg_page">#F8F3E6</color>
+    <color name="bg_card">#FFFDF7</color>
+    <color name="bg_tile">#F1E2BF</color>
+    <color name="bg_banner">#17140F</color>
+    <color name="color_line">#DCCBA0</color>
+    <color name="text_ink">#1F1B14</color>
+    <color name="text_muted">#6F675A</color>
+    <color name="color_gold">#C8A24A</color>
+    <color name="color_gold_deep">#8F6F22</color>
+    <color name="color_banner_text">#F4EFE3</color>
+    <color name="color_banner_sub">#D9D0BC</color>
+</resources>
